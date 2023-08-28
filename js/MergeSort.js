@@ -160,3 +160,14 @@ async function sort(arr) {
 
     await merge(half1, half2, arr)
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    createArray()
+})
+
+document.getElementById('remake-btn').addEventListener('click', function() {
+    remakeArray()
+})
+document.getElementById('sort-btn').addEventListener('click', function() {
+    sort(array)
+})
