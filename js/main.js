@@ -1,4 +1,6 @@
-document.addEventListener("DOMContentLoaded", createArray())
+document.addEventListener("DOMContentLoaded", function() {
+    createArray()
+})
 
 document.getElementById('remake-btn').addEventListener('click', function() {
     remakeArray()
